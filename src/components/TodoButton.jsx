@@ -1,10 +1,17 @@
 import React from 'react'
-import '../components/TodoButton.css'
-
-
+import '../components/css/TodoButton.css'
+const msg = 'hola'
+const onClickButton = (msg) => {
+  alert(msg);
+}
 const TodoButton = () => {
   return (
-    <button className='TodoButton'>+</button>
+    <button 
+      className='TodoButton'
+      onClick={() => onClickButton(msg)}
+    >
+      +
+    </button>
   )
 }
 

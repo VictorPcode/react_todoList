@@ -17,7 +17,7 @@ const TodoSearch = () => {
     onChange={onSearchValueChange}
     value={searchValue}
     className='TodoSearch' 
-    placeholder="Escribe tu tarea Aqui" />
+    placeholder="Buscador de tareas" />
   );
 
 }

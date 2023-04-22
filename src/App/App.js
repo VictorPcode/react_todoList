@@ -7,7 +7,7 @@ import { TodoItem } from "../components/TodoItem";
 import {TodoForm} from "../components/todoForm";
 import { TodoButton } from "../components/TodoButton";
 import { Modal } from "../components/modal";
-import { TodoError, TodoEmpty, TodoLoading } from "../components/exoEsqueleto";
+import { TodoError, TodoLoading } from "../components/exoEsqueleto";
 
 function App() {
 
@@ -36,7 +36,7 @@ function App() {
              <TodoList>
              {error && <TodoError error={error}/>}
              {loading && <TodoLoading/>}
-             {!loading && !searchedTodos.lenght && (<TodoEmpty/>)}
+             {/* {!loading && !searchedTodos.lenght && <TodoEmpty/>} */}
 
              {searchedTodos.map((todo) => (
                <TodoItem

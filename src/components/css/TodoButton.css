@@ -1,12 +1,12 @@
 .TodoButton{
-    background-color: #b1dec2;
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
     cursor: pointer;
     border: none;
     border-radius: 50%;
     font-size: 20px;
     position: fixed;
     bottom: 24px;
-    right: 24px;
+    right: 23px;
     font-weight: bolder;
     color: #FAFAFA;
     justify-content: center;

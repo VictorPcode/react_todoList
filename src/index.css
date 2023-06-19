@@ -16,9 +16,10 @@ code {
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(45deg, #ef854ba1 30%, #FE6B8B 90%);
+  
+  background: linear-gradient(45deg, #0f5fd0a1 30%, #08c7ad 90%);
   color: #1E1E1F;
-  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 
 #root {

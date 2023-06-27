@@ -1,8 +1,8 @@
 import React from 'react'
-import './TodoExo.css'
+import '../exoEsqueleto/TodoExo.css'
 
 function TodoError({error}){
-    return <p>{error}</p>
+    return {error}
 }
 
 

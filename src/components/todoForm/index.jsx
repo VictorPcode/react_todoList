@@ -1,6 +1,6 @@
 import React from 'react'
 import { TodoContext } from '../../TodoContext'
-import './TodoForm.css'
+import '../todoForm/TodoForm.css'
 
 const TodoForm = () => {
     const [newTodoValue, setNewTodoValue] = React.useState('')
@@ -26,7 +26,7 @@ const TodoForm = () => {
 
   return (
    <form onSubmit={onSubmit}>
-    <label>AGREGA TU NUEVA TAREA</label>
+    {'AGREGA TU NUEVA TAREA'}
     <textarea
     value={newTodoValue}
     onChange={onChange}
